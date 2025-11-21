@@ -1,0 +1,32 @@
+button {
+  padding: 6px 14px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  background: lightblue;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightseagreen;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+input[type='number'] {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 80px;
+  font-size: 0.95rem;
+  margin-left: 8px;
+}

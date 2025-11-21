@@ -1,0 +1,20 @@
+<h2>Counter (NgRx)</h2>
+
+<div>
+  @if (value$ | async; as value) {
+  <p>
+    Current value: <strong>{{ value }}</strong>
+  </p>
+  }
+  <button (click)="decrement()">-1</button>
+  <button (click)="increment()">+1</button>
+  <button (click)="reset()">Reset</button>
+
+  <hr />
+
+  <label>
+    Set value:
+    <input type="number" [(ngModel)]="inputValue" />
+  </label>
+  <button (click)="setByAmount()">Apply</button>
+</div>

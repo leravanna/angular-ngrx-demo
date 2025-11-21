@@ -1,0 +1,17 @@
+p strong {
+  color: lightseagreen;
+  font-weight: 700;
+}
+
+.link {
+  text-decoration: none;
+  color: darkslategray;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid lightyellow;
+}
+
+.link:hover {
+  background-color: lightyellow;
+  font-weight: bold;
+}

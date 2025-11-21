@@ -1,9 +1,6 @@
 # StateNgDemo — NgRx Starter Project
 
-This project is a **simple demonstration of NgRx Store** in a modern Angular application.  
-Students can use it as a reference when adding NgRx to their own Items feature.
-
----
+## This project is a **simple demonstration of NgRx Store** in a modern Angular application.
 
 ## 📌 What This Demo Shows
 

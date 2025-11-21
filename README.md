@@ -1,6 +1,53 @@
-# StateNgDemo
+# StateNgDemo — NgRx Starter Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
+This project is a **simple demonstration of NgRx Store** in a modern Angular application.  
+Students can use it as a reference when adding NgRx to their own Items feature.
+
+---
+
+## 📌 What This Demo Shows
+
+### **1. Basic NgRx Setup**
+
+The project includes a small **Counter** feature to show how NgRx works using:
+
+- Actions
+- Reducer
+- Selectors
+- Store
+- Dispatching actions from the component
+- Reading state with the `async` pipe
+
+This is the minimal structure you will use in real features.
+
+---
+
+### **2. State Consistency in Action**
+
+The Counter demonstrates how NgRx keeps state **centralized and consistent**:
+
+- Clicking **+1**, **-1**, or **Reset** updates the value in the Store.
+- Any component that selects the counter value will show the **same value**.
+- If you navigate to another page (e.g., Counter Details) and return:
+  - the number stays the same,
+  - because the state lives in the **Store**, not in the component.
+
+> **NgRx ensures predictable, shared state across the entire application.**
+
+---
+
+### **3. How This Helps Your Homework**
+
+This example shows:
+
+- Where to place actions, reducer, selectors, and effects
+- How to register a feature in `app.config.ts`
+- How to dispatch actions
+- How to read state from the Store
+
+You will follow the same structure when you implement NgRx for your **Items List** feature.
+
+---
 
 ## Development server
 
